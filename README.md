@@ -10,7 +10,7 @@
 
 # PEMBAHASAN
 ### 1. Sebutkan web server yang digunakan pada "monta.if.its.ac.id"! 
--	Pertama, kita membuka file soal1-2.pcapng
+-	Pertama, kita membuka file ```soal1-2.pcapng```
 -	Kemudian menggunakan command ```tcp contains monta.if.its.ac.id``` pada  Display Filter  
 ![image](https://cdn.discordapp.com/attachments/869563207658913802/1022348757444067399/unknown.png)
 
