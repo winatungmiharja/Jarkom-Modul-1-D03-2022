@@ -102,6 +102,27 @@ Di sebuah planet bernama Viltrumite, terdapat Kementerian Komunikasi dan Informa
 - Disini kita menggunakan display filter `tcp`
 
 ![image](https://cdn.discordapp.com/attachments/968145735713456189/1023207928427204608/Picture1.png)
+
 ![image](https://cdn.discordapp.com/attachments/968145735713456189/1023207938917146704/Picture2.png)
+
 ![image](https://cdn.discordapp.com/attachments/968145735713456189/1023207951986593824/Picture3.png)
 
+## 9.	Terdapat laporan adanya pertukaran file yang dilakukan oleh kedua mahasiswa dalam percakapan yang diperoleh, carilah file yang dimaksud! Untuk memudahkan laporan kepada atasan, beri nama file yang ditemukan dengan format [nama_kelompok].des3 dan simpan output file dengan nama “flag.txt”.
+
+![image](https://cdn.discordapp.com/attachments/968145735713456189/1023207957636321350/Picture4.png)
+
+![image](https://cdn.discordapp.com/attachments/968145735713456189/1023207970198274128/Picture5.png)
+
+-	Lalu kita melakukan filter `tcp.srcport == 9002`
+![image](https://cdn.discordapp.com/attachments/968145735713456189/1023207989638869012/Picture6.png)
+-	Pada paket kedua dari atas, didapatkan keyword salted, kita mencoba melihat paket tersebut
+![image](https://cdn.discordapp.com/attachments/968145735713456189/1023207989622087770/Picture7.png)
+
+-	Hasil salted file Salted__.:....B(......$E...K)..<<......f ......B.G4..+..
+
+-	Menjalankan command linux untuk meng-export file `openssl des3 -d -salt -in D03.des3 -out flag.txt -k :*` dengan password nakano
+![image](https://cdn.discordapp.com/attachments/968145735713456189/1023208066155544617/Picture9.jpg)
+
+## 10.	Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di atas!
+- Password rahasia tersebut adalah
+![image](https://cdn.discordapp.com/attachments/968145735713456189/1023208011679944735/Picture8.png)
