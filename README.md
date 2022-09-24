@@ -93,3 +93,15 @@
 
 ![image](https://user-images.githubusercontent.com/64743796/191660285-e58049d9-b8e3-494f-afaf-0fcba8bf56e1.png)
 
+
+Di sebuah planet bernama Viltrumite, terdapat Kementerian Komunikasi dan Informatika yang baru saja menetapkan kebijakan baru. Dalam kebijakan baru tersebut, pemerintah dapat mengakses data pribadi masyarakat secara bebas jika memang dibutuhkan, baik dengan maupun tanpa persetujuan pihak yang bersangkutan. Sebagai mahasiswa yang sedang melaksanakan program magang di kementerian tersebut, kalian mendapat tugas berupa penyadapan percakapan mahasiswa yang diduga melakukan tindak kecurangan dalam kegiatan Praktikum Komunikasi Data dan Jaringan Komputer 2022. Selain itu, terdapat sebuah password rahasia (flag) yang diduga merupakan milik sebuah organisasi bawah tanah yang selama ini tidak sejalan dengan pemerintahan Planet Viltrumite. Tunggu apa lagi, segera kerjakan tugas magang tersebut agar kalian bisa mendapatkan pujian serta kenaikan jabatan di kementerian tersebut!
+
+
+## 8.	Telusuri aliran paket dalam file .pcap yang diberikan, cari informasi berguna berupa percakapan antara dua mahasiswa terkait tindakan kecurangan pada kegiatan praktikum. Percakapan tersebut dilaporkan menggunakan protokol jaringan dengan tingkat keandalan yang tinggi dalam pertukaran datanya sehingga kalian perlu menerapkan filter dengan protokol yang tersebut.
+
+- Disini kita menggunakan display filter `tcp`
+
+![image](https://cdn.discordapp.com/attachments/968145735713456189/1023207928427204608/Picture1.png)
+![image](https://cdn.discordapp.com/attachments/968145735713456189/1023207938917146704/Picture2.png)
+![image](https://cdn.discordapp.com/attachments/968145735713456189/1023207951986593824/Picture3.png)
+
